@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="outlook" key="{D1B3D96A-D56A-486D-AF31-65FE8F0DDD7A}" path="outlook.py" />
+		<child name="OutlookFlow" key="{4D2216CC-E92F-40D4-AC1C-56EE702DB4C9}" path="OutlookFlow.py" />
+	</children>
+</Root>

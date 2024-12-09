@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{6A2A4040-69C0-47DE-BC4F-A105EBD0863F}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{417E52EF-AEEC-4FEC-AE3C-CC8BAD2F1230}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{6AF4AA43-EC8B-41F1-B1A7-0872681E959D}">
+								<Image FileName="1992342661" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{4B1067DF-C672-4CC8-AB81-F8C0B8247516}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageDownloadGithubGoogleSearch" Key="{A98D7F37-112C-4928-B839-10D177B2FD2F}">
+								<Image FileName="792468286" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formTsf" Key="{B98559AD-89EF-43C1-BC73-267282477171}">
+										<Image FileName="792468286" Left="0" Top="121" Right="882" Bottom="167" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tsf" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;download github&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;tsf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaSearch" Key="{66D25812-32C5-45AE-B4AA-2A48A3391FF2}">
+										<Image FileName="792468286" Left="231" Top="132" Right="724" Bottom="164" />
+										<TypeInfo Item0="{9B1AC056-FEC2-40C3-BF3B-121C4ECC379D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APjFqb" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@aria-label=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@value=&apos;download github&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;gLFyf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;tsf&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="OUTLOOK" Key="{DBDF5B43-6329-4382-AFA3-E8D0F1DDEB25}">
+						<TypeInfo Item0="{3A930700-85CA-4B88-8983-6F8A05AAB180}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OUTLOOK" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndrctrl_renwnd32" Key="{2E921440-7680-47A5-8F1C-A5E5BB528D38}">
+								<Image FileName="-1430172504" Left="0" Top="0" Right="1936" Bottom="1056" />
+								<TypeInfo Item0="{3FE9DD86-FCA9-4E64-8EC1-47857E1CC2AF}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Inbox -*@mwe.com - Outlook" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="rctrl_renwnd32" Key="{5E70F94C-A671-452A-8770-EE745253BCF3}">
+										<Image FileName="-1430172504" Left="576" Top="269" Right="1390" Bottom="1025" />
+										<TypeInfo Item0="{EF724533-A9C4-4CE0-BD09-C64F999E7BC2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="rctrl_renwnd32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="AfxWndW" Key="{C742F6BF-810F-429D-AC55-3FAC55B0CCFF}">
+												<Image FileName="-1430172504" Left="576" Top="269" Right="1390" Bottom="1025" />
+												<TypeInfo Item0="{EF724533-A9C4-4CE0-BD09-C64F999E7BC2}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="AfxWndW" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="page32770" Key="{8E5DE241-5BAD-441A-82C2-881AB8418E7C}">
+														<Image FileName="-1430172504" Left="576" Top="269" Right="1390" Bottom="1025" />
+														<TypeInfo Item0="{EF724533-A9C4-4CE0-BD09-C64F999E7BC2}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="#32770" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{417E52EF-AEEC-4FEC-AE3C-CC8BAD2F1230}">
+			<Child Name="BrowserWindow" Owner="{6AF4AA43-EC8B-41F1-B1A7-0872681E959D}" />
+			<Child Name="pageDownloadGithubGoogleSearch" Owner="{A98D7F37-112C-4928-B839-10D177B2FD2F}">
+				<Child Name="formTsf" Owner="{B98559AD-89EF-43C1-BC73-267282477171}">
+					<Child Name="textareaSearch" Owner="{66D25812-32C5-45AE-B4AA-2A48A3391FF2}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="OUTLOOK" Owner="{DBDF5B43-6329-4382-AFA3-E8D0F1DDEB25}">
+			<Child Name="wndrctrl_renwnd32" Owner="{2E921440-7680-47A5-8F1C-A5E5BB528D38}">
+				<Child Name="rctrl_renwnd32" Owner="{5E70F94C-A671-452A-8770-EE745253BCF3}">
+					<Child Name="AfxWndW" Owner="{C742F6BF-810F-429D-AC55-3FAC55B0CCFF}">
+						<Child Name="page32770" Owner="{8E5DE241-5BAD-441A-82C2-881AB8418E7C}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
